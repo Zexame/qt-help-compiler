@@ -1,0 +1,23 @@
+# Путь к папке bin с утилитами Qt
+qt_bin_path: "C:/Qt/6.11.1/mingw_64/bin"
+
+# Путь к .qhp файлу
+qhp_file: "help.qhp"
+
+# Путь к .qhcp файлу
+qhcp_file: "collection.qhcp"
+
+# Путь для сохранения результата
+output_file: "build/help.qhc"
+
+# Корневая папка с документацией (для --find-html)
+docs_root: "./docs"
+
+# Собрать внутреннюю документацию (аналог -i)
+internal: false
+
+# Подробный вывод (аналог --verbose)
+verbose: false
+
+# Не удалять временные файлы (аналог --keep-temp)
+keep_temp: false
